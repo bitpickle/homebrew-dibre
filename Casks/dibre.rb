@@ -4,7 +4,7 @@ cask "dibre" do
   # Este é o hash de integridade do arquivo.
   # Quando a pipeline rodar e o .dmg for gerado na sua release, você deve calcular o hash dele.
   # Exemplo no terminal: shasum -a 256 caminho/para/Dibre_1.0.0_aarch64.dmg
-  sha256 "COLOQUE_O_HASH_AQUI_OU_USE_NO_CHECK"
+  sha256 "d4fcf88f7c95d2d6bf107f1be325ac85efc03b4c6cbb804229e2b0bc0161c6bd"
 
   # A URL de onde o brew vai baixar o instalador
   # Como a Action que criamos roda no macos-latest (que hoje em dia é Apple Silicon), o Tauri gera o arquivo com o sufixo _aarch64.dmg
