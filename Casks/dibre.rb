@@ -11,6 +11,13 @@ cask "dibre" do
 
   app "Dibre.app"
 
+  postflight do
+    app_path = appdir/"Dibre.app"
+    next unless app_path.exist?
+
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", app_path]
+  end
+
   zap trash: [
     "~/Library/Application Support/dev.bitpickle.dibre",
     "~/Library/Preferences/dev.bitpickle.dibre.plist",
