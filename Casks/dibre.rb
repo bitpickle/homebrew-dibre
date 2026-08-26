@@ -1,7 +1,7 @@
 cask "dibre" do
-  version "1.0.5"
+  version "1.0.6"
 
-  sha256 "442f7be81bdebf15320e56830d466c941a3f6f3dc8ff8e1be7f3676f4dd6fa8d"
+  sha256 "6ff7fa9e6cbb2c33cedca67ce191b3f6fe0022d1cfe8490ea87730b1219b7d87"
 
   url "https://github.com/bitpickle/homebrew-dibre/releases/download/v#{version}/Dibre_#{version}_aarch64.dmg"
 
